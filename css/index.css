@@ -65,12 +65,13 @@
     &:hover {
         box-shadow: 0 2px 4px 0 #23b5e8;
         filter: brightness(1.25);
+        transform: scale(1.25);
     }
 }
 
 .link {
-    color: white;
-    font-weight: 700;
+    color: #fefefe;
+    font-weight: bold;
     transition: color 0.25s;
 
     &:hover {
